@@ -3,8 +3,11 @@ body {
     background-color: rgb(43, 43, 40);
 }
 
+
+
 .informatihon-text {
     color: var(--text-color);
+    margin-top: 110px;
 }
 
 :root {
@@ -13,6 +16,7 @@ body {
     --p1-color: green;
     
 }
+
 
 .informatihon-p1 {
     color: rgb(50, 171, 85);
@@ -43,3 +47,46 @@ body {
 .p2 {
     color: red;
 }
+
+.headers-list {
+  display: flex;
+  gap: 19px;
+  list-style: none;
+}
+
+
+
+.link-headers {
+  text-decoration: none;
+  color: yellow;
+}
+
+.link-headers:hover {
+   background-color: blue;
+   border-radius: 7px;
+}
+
+.grafik-description {
+  color: yellow;
+  line-height: 15px;
+  margin-left: 20px;
+}
+
+
+#grafik-foto {
+  width: 700px;
+}
+
+#advice-text {
+  color: yellow;
+  line-height: 20px;
+  background-color: rgb(118, 96, 96);
+  border-radius: 20px;
+ 
+}
+
+
+#h12 {
+  color: blueviolet;
+}
+
