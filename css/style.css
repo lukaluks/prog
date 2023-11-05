@@ -59,6 +59,8 @@ body {
 .link-headers {
   text-decoration: none;
   color: yellow;
+  background-color: rgb(253, 0, 0);
+  border-radius: 20px;
 }
 
 .link-headers:hover {
@@ -70,11 +72,15 @@ body {
   color: yellow;
   line-height: 15px;
   margin-left: 20px;
+  background-color: black;
+  
 }
 
 
 #grafik-foto {
-  width: 700px;
+  width: 600px;
+  margin-left: 20px;
+
 }
 
 #advice-text {
@@ -94,8 +100,25 @@ body {
   text-decoration: none;
   color: blueviolet;
   font-weight: 900;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#a:hover {
+  background-color: rgb(254, 0, 0);
+  border-radius:  10px;
+  color: yellow;
 }
 
 #advice-foto {
   border-radius: 200px;
+  width: 270px;
+}
+
+li {
+  list-style: none;
+}
+
+#info-list {
+  display: flex;
 }
