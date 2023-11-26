@@ -61,6 +61,7 @@ body {
   color: yellow;
   background-color: rgb(253, 0, 0);
   border-radius: 20px;
+  width: 200px;
 }
 
 .link-headers:hover {
