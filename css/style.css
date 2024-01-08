@@ -84,8 +84,9 @@ body {
   border-radius: 25px;
 }
 
-.headers-item {
-    
+.headers-item:hover {
+    transition: .3s all ease;
+    width: 100px;
 }
 
 
